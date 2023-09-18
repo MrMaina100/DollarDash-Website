@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bento-grids{
+@apply flex flex-col space-y-3 items-center border border-gray-300 p-4 rounded-lg
+
+}
+
