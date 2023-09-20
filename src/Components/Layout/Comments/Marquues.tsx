@@ -111,7 +111,7 @@ const Marquues = () => {
       ) : (
         /* Show the first marquee with rolling effect on larger screens */
         <div>
-          <Marquee  speed={30}> 
+          <Marquee gradient={true} gradientWidth={200}  speed={30}> 
             <div className='grid gap-4  md:grid-cols-[repeat(3,400px)]'>
                 {data1.map((data, index) => (
                <div
@@ -138,7 +138,7 @@ const Marquues = () => {
       {/* Show the second marquee only on larger screens */}
       {!isMobileScreen && (
         <div>
-          <Marquee direction='right' speed={30}>
+          <Marquee gradient={true} gradientWidth={200} direction='right' speed={30}>
             <div  className='grid gap-4  md:grid-cols-[repeat(3,400px)] '>
               {data2.map((data, index) => (
               <div
