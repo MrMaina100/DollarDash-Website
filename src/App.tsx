@@ -5,6 +5,7 @@ import Header from './Components/Layout/Header';
 import Hero from './Components/Layout/Hero';
 import Features from './Components/Layout/Features/Features';
 import Process from './Components/Layout/Process';
+import Comment from './Components/Layout/Comments/Comment';
 const App = () => {
 
   const preferredColorScheme = useColorScheme();
@@ -19,6 +20,7 @@ const App = () => {
         <Hero/>
         <Features/>
         <Process/>
+        <Comment/>
        </div>
 
 

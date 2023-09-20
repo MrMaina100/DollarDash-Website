@@ -8,3 +8,11 @@
 
 }
 
+.marquee-items{
+@apply flex flex-col space-y-3 justify-center  border border-gray-300 p-4 rounded-lg
+}
+
+.last-item {
+  
+ @apply mr-[20px]
+}
