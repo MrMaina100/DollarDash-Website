@@ -7,6 +7,7 @@ import Features from './Components/Layout/Features/Features';
 import Process from './Components/Layout/Process';
 import Comment from './Components/Layout/Comments/Comment';
 import FAQs from './Components/Layout/FAQs';
+import CTA from './Components/Layout/CTA';
 const App = () => {
 
   const preferredColorScheme = useColorScheme();
@@ -23,6 +24,7 @@ const App = () => {
         <Process/>
         <Comment/>
         <FAQs/>
+        <CTA/>
        </div>
 
 
