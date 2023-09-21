@@ -92,7 +92,7 @@ const Marquues = () => {
 
 
   return (
-    <div className='flex flex-col space-y-4'>
+    <div className='flex flex-col space-y-4 md:pt-10'>
 
       {isMobileScreen ? (
         <div className='grid gap-4 grid-cols-1'>
