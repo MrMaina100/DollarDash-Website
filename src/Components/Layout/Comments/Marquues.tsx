@@ -5,6 +5,7 @@ import avatar4 from '../../../Images/avatars/avatar-4.svg'
 import avatar5 from '../../../Images/avatars/avatar-5.svg'
 import avatar6 from '../../../Images/avatars/avatar-6.svg'
 import Marquee from 'react-fast-marquee'
+import { useMantineTheme } from '@mantine/core'
 import {useState, useEffect } from 'react'
 
 type DataType = {
@@ -64,10 +65,13 @@ const data2:DataType = [
     age:25,
     img:avatar6
   },
-]
-   
+]   
+
 
 const Marquues = () => {
+
+  const theme = useMantineTheme()
+  const isDarkMode = theme.colorScheme === 'dark'
   
   const [isMobileScreen, setIsMobileScreen] = useState(window.innerWidth <= 768);
 
@@ -111,7 +115,7 @@ const Marquues = () => {
       ) : (
         /* Show the first marquee with rolling effect on larger screens */
         <div>
-          <Marquee gradient={true} gradientWidth={200}  speed={30}> 
+          <Marquee gradient={true} gradientColor={isDarkMode ? [26,27,30] : [255,255,255]} gradientWidth={140}  speed={30}> 
             <div className='grid gap-4  md:grid-cols-[repeat(3,400px)]'>
                 {data1.map((data, index) => (
                <div
@@ -138,7 +142,7 @@ const Marquues = () => {
       {/* Show the second marquee only on larger screens */}
       {!isMobileScreen && (
         <div>
-          <Marquee gradient={true} gradientWidth={200} direction='right' speed={30}>
+          <Marquee gradient={true} gradientColor={isDarkMode ? [26,27,30] : [255,255,255]} gradientWidth={140} direction='right' speed={30}>
             <div  className='grid gap-4  md:grid-cols-[repeat(3,400px)] '>
               {data2.map((data, index) => (
               <div
