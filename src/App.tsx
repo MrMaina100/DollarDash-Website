@@ -8,6 +8,7 @@ import Process from './Components/Layout/Process';
 import Comment from './Components/Layout/Comments/Comment';
 import FAQs from './Components/Layout/FAQs';
 import CTA from './Components/Layout/CTA';
+import Footer from './Components/Layout/Footer';
 const App = () => {
 
   const preferredColorScheme = useColorScheme();
@@ -25,6 +26,7 @@ const App = () => {
         <Comment/>
         <FAQs/>
         <CTA/>
+        <Footer/>
        </div>
 
 
