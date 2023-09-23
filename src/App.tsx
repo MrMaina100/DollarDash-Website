@@ -9,12 +9,13 @@ import Comment from './Components/Layout/Comments/Comment';
 import FAQs from './Components/Layout/FAQs';
 import CTA from './Components/Layout/CTA';
 import Footer from './Components/Layout/Footer';
+
 const App = () => {
 
   const preferredColorScheme = useColorScheme();
   const [colorScheme, setColorScheme] = useState<ColorScheme>(preferredColorScheme);
   const toggleColorScheme = (value?: ColorScheme) =>
-    setColorScheme(value || (colorScheme === 'dark' ? 'light' : 'dark'));
+    setColorScheme(value || (colorScheme === 'dark' ? 'light' : 'dark'));  
   return (
     <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
        <MantineProvider theme={{colorScheme}} withGlobalStyles withNormalizeCSS>

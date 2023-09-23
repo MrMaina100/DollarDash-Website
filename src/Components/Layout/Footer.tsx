@@ -59,10 +59,15 @@ const Footer = () => {
 
      <hr  className='mt-5 mb-5'/>
 
-     <div className='flex flex-col space-y-5 justify-between items-center md:flex-row'>
-      <p>
+     <div className='flex flex-col space-y-5 justify-between items-center md:flex-row md:space-y-0'>
+      <a 
+      href='https://github.com/MrMaina100'
+      target="_blank"
+      rel="noreferrer noopener"
+       title="Open in new tab"
+      >
          Designed by Derrick Maina 
-      </p>
+      </a>
 
        <div className="flex flex-row space-x-3">
                  <a href="https://github.com/MrMaina100"

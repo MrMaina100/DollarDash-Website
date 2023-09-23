@@ -2,7 +2,7 @@ import { Accordion } from '@mantine/core';
 
 const FAQs = () => {
   return (
-    <div className="flex flex-col  space-y-10 pt-20">
+    <div id='FAQs' className="flex flex-col  space-y-10 pt-20">
 
       {/* first div */}
       <div className="flex flex-col items-center space-y-5">

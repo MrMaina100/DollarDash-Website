@@ -1,7 +1,7 @@
 import BentoGrid from "./BentoGrid"
 const Features = () => {
   return (
-    <div id="features" className="flex flex-col space-y-5 items-center  text-center md:pt-20">
+    <div id="Features" className="flex flex-col space-y-5 items-center  text-center md:pt-20">
       {/* first div */}
       <div className="flex flex-col space-y-5">
          <div>

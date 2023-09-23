@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className=" pt-16 pb-40  flex flex-col items-center justify-between space-y-5  md:flex-row  md:space-y-0 md:space-x-10">
       {/* firts content div */}
-      <div className="flex flex-col space-y-5  text-center md:text-start ">
+      <div className="flex flex-col space-y-5 items-center md:items-start">
         <div>
            <span className='inline-flex h-full animate-background-shine cursor-pointer items-center justify-center rounded-full border border-orange-400 bg-[linear-gradient(110deg,#000,45%,#4D4B4B,55%,#000)] bg-[length:250%_100%] px-3 py-1 text-xs font-medium text-orange-300 backdrop-blur-3xl'>
            Finance for the next generation

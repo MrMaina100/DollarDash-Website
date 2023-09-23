@@ -62,7 +62,7 @@ const Process = () => {
 
    
   return (
-    <div className="flex flex-col space-y-5 items-center  text-center pt-10">
+    <div id='Proccess' className="flex flex-col space-y-5 items-center  text-center pt-10">
       {/* first div */}
 
       <div className="flex flex-col space-y-5">

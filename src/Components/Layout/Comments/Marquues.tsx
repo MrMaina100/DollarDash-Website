@@ -101,14 +101,17 @@ const Marquues = () => {
               key={data.id}
               className='marquee-items'
             >
-              <p>{data.comments}</p>
-              <div className="flex flex-row space-x-2">
-                <img src={data.img} alt="" className='w-10 h-10 rounded-full' />
-                <div className="flex flex-col space-y-2">
-                  {data.name}
-                  <p>{data.age.toString()}</p>
-                </div>
-              </div>
+              <div className='flex flex-col space-y-2 text-start'>
+                    <p>{data.comments}</p>
+                    <div className="flex flex-row space-x-2">
+                    <img src={data.img} alt="" className='w-10 h-10 rounded-full' />
+                    <div className="flex flex-col space-y-2 ">
+                    {data.name}
+                    <p>{data.age.toString()}</p>
+                   </div>
+                   </div>
+
+                  </div>
             </div>
           ))}
         </div>
@@ -122,14 +125,18 @@ const Marquues = () => {
                 key={data.id}
                 className={`marquee-items ${index === data1.length - 1 ? 'last-item' : ''}`}
                 >
-                <p>{data.comments}</p>
-                <div className="flex flex-row space-x-2">
-                  <img src={data.img} alt="" className='w-10 h-10 rounded-full' />
-                  <div className="flex flex-col space-y-2">
+                  <div className='flex flex-col space-y-2 text-start'>
+                    <p>{data.comments}</p>
+                    <div className="flex flex-row space-x-2">
+                    <img src={data.img} alt="" className='w-10 h-10 rounded-full' />
+                    <div className="flex flex-col space-y-2 ">
                     {data.name}
                     <p>{data.age.toString()}</p>
+                   </div>
+                   </div>
+
                   </div>
-                </div>
+                
               </div>
             ))}
 
@@ -149,14 +156,18 @@ const Marquues = () => {
                 key={data.id}
                 className={`marquee-items ${index === data1.length - 1 ? 'last-item' : ''}`}
               >
-                <p>{data.comments}</p>
-                <div className="flex flex-row space-x-2">
-                  <img src={data.img} alt="" className='w-10 h-10 rounded-full' />
-                  <div className="flex flex-col space-y-2">
+                 <div className='flex flex-col space-y-2 text-start'>
+                    <p>{data.comments}</p>
+                    <div className="flex flex-row space-x-2">
+                    <img src={data.img} alt="" className='w-10 h-10 rounded-full' />
+                    <div className="flex flex-col space-y-2 ">
                     {data.name}
                     <p>{data.age.toString()}</p>
+                   </div>
+                   </div>
+
                   </div>
-                </div>
+                
               </div>
             ))}
 

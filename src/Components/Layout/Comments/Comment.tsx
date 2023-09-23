@@ -1,7 +1,7 @@
 import Marquues from "./Marquues"
 const Comment = () => {
   return (
-    <div className="flex flex-col space-y-5 text-center pt-10 ">
+    <div id="Customers" className="flex flex-col space-y-5 text-center pt-10 ">
       {/* first div */}
       <div className="flex flex-col space-y-5 md:pb-10 ">
           <div>

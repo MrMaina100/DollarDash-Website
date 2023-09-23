@@ -8,7 +8,7 @@ function ToggleSwitch() {
   return (
     <ActionIcon
       variant="outline"
-      color={dark ? 'yellow' : 'blue'}
+      color={dark ? 'orange' : 'dark'}
       onClick={() => toggleColorScheme()}
       title="Toggle color scheme"
     >
