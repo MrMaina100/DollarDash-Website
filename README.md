@@ -1,27 +1,17 @@
-# React + TypeScript + Vite
+# DOLLAR DASH WEBSITE 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A project a did to better my UI design. 
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository ```https://github.com/MrMaina100/DollarDash-Website.git```
+2. Install install dependencies ```npm install```
 
-## Expanding the ESLint configuration
+## libraries and frameworks  used 
+1. React + typescript
+2. Tailwind css 
+3. [React Fast Marquee](https://www.react-fast-marquee.com/demo)
+4. [Mantine](https://mantine.dev/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## screenshot
+![Screen Shot 2023-09-24 at 20 36 16-fullpage](https://github.com/MrMaina100/DollarDash-Website/assets/91890976/57cd9d3c-2f26-41f9-9937-75b67efa14f5)
