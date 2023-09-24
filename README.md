@@ -18,4 +18,5 @@ A project a did to better my UI design.
 2. [Avatars](https://alohe.github.io/avatars/)
 
 ## screenshot
-![Screen Shot 2023-09-24 at 20 36 16-fullpage](https://github.com/MrMaina100/DollarDash-Website/assets/91890976/57cd9d3c-2f26-41f9-9937-75b67efa14f5)
+![Screen Shot 2023-09-24 at 20 36 16-fullpage](https://github.com/MrMaina100/DollarDash-Website/assets/91890976/677257e7-f9fc-4aae-b47f-27c5afccc46a)
+
